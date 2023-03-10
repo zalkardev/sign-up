@@ -19,7 +19,7 @@ document.getElementById("tg").addEventListener("submit", function (e) {
         .then((res) => {
             this.name.value = "";
             this.tel.value = "";
-            // success.innerHTML = "отправельно!";
+             //success.innerHTML = "отправельно!";
             success.style.display = "block";
         })
         .catch((err) => {
